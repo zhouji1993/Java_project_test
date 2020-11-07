@@ -3,7 +3,7 @@
 /*
 *
 *
-* 我的思路就是直接將
+* 鐩存帴寤虹珛涓�涓瓧绗﹀瀷鐨勬暟缁勶紝鐒跺悗鐢ㄦ暟缁勭殑length浣滀负寰幆浣撲腑寰幆娆℃暟
 *
 * */
 
@@ -14,13 +14,9 @@ public class QiPan {
     StringBuffer midstr= new StringBuffer();
     public static final char plain=' ';
     public QiPan(){
-        System.out.println(midarry);
-        char[][] board = new char[size][size];
         for (int i = 0 ; i < size  ; i++ ){
             for (int j = 0;j <size ;j++){
-//                System.out.println(midstr);
                 if (i==0 & j==0 ){
-//                    board[i][j]=plain;
                     midstr.append(" ");
                 }
                 if (j==0 & i!=0){
